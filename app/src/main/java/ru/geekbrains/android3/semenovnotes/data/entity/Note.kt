@@ -19,6 +19,7 @@ class Note(
         PINK,
         GREEN
     }
+    val n = 5;
 
     override fun equals(other: Any?): Boolean {
         if (this === other) return true
