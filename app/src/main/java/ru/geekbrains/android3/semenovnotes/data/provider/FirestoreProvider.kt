@@ -1,10 +1,10 @@
-package ru.geekbrains.gb_kotlin.data.provider
+package ru.geekbrains.android3.semenovnotes.data.provider
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import com.google.firebase.firestore.FirebaseFirestore
-import ru.geekbrains.gb_kotlin.data.entity.Note
-import ru.geekbrains.gb_kotlin.data.model.NoteResult
+import ru.geekbrains.android3.semenovnotes.data.entity.Note
+import ru.geekbrains.android3.semenovnotes.data.model.NoteResult
 
 class FirestoreProvider : DataProvider {
 
